@@ -1,0 +1,5 @@
+# NeuroVerseOS - Robots Configuration
+User-agent: *
+Allow: /
+
+Sitemap: https://www.neuroverseos.com/sitemap.xml

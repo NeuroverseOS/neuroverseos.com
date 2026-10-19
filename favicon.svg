@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Brain Tree Logo - NeuroVerseOS Favicon -->
+  <!-- A branching tree/neural network representing cognitive growth -->
+  <defs>
+    <linearGradient id="brainTreeGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main trunk -->
+  <path 
+    d="M16 28 L16 18" 
+    stroke="url(#brainTreeGradient)" 
+    stroke-width="2.5" 
+    stroke-linecap="round"
+  />
+  
+  <!-- Primary branches -->
+  <path 
+    d="M16 18 L10 12 M16 18 L22 12" 
+    stroke="url(#brainTreeGradient)" 
+    stroke-width="2" 
+    stroke-linecap="round"
+  />
+  
+  <!-- Secondary branches (left) -->
+  <path 
+    d="M10 12 L6 8 M10 12 L12 7" 
+    stroke="url(#brainTreeGradient)" 
+    stroke-width="1.5" 
+    stroke-linecap="round"
+  />
+  
+  <!-- Secondary branches (right) -->
+  <path 
+    d="M22 12 L26 8 M22 12 L20 7" 
+    stroke="url(#brainTreeGradient)" 
+    stroke-width="1.5" 
+    stroke-linecap="round"
+  />
+  
+  <!-- Neural nodes -->
+  <circle cx="16" cy="18" r="2" fill="url(#brainTreeGradient)"/>
+  <circle cx="10" cy="12" r="1.5" fill="url(#brainTreeGradient)"/>
+  <circle cx="22" cy="12" r="1.5" fill="url(#brainTreeGradient)"/>
+  <circle cx="6" cy="8" r="1" fill="url(#brainTreeGradient)"/>
+  <circle cx="12" cy="7" r="1" fill="url(#brainTreeGradient)"/>
+  <circle cx="26" cy="8" r="1" fill="url(#brainTreeGradient)"/>
+  <circle cx="20" cy="7" r="1" fill="url(#brainTreeGradient)"/>
+  
+  <!-- Tertiary leaf nodes -->
+  <circle cx="4" cy="5" r="0.75" fill="#a78bfa" opacity="0.8"/>
+  <circle cx="8" cy="4" r="0.75" fill="#a78bfa" opacity="0.8"/>
+  <circle cx="14" cy="4" r="0.75" fill="#a78bfa" opacity="0.8"/>
+  <circle cx="18" cy="4" r="0.75" fill="#a78bfa" opacity="0.8"/>
+  <circle cx="24" cy="4" r="0.75" fill="#a78bfa" opacity="0.8"/>
+  <circle cx="28" cy="5" r="0.75" fill="#a78bfa" opacity="0.8"/>
+</svg>
